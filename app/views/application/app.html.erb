@@ -28,6 +28,16 @@
     <meta name="og:title" content="El notebook, a private and secure notes app."/>
     <meta name="og:description" content="El notebook is a basic notes app that delivers only the essentials in note taking. Because of its simplicity and resistance to growth, users can count on durability and convenience."/>
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157962192-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-157962192-1');
+    </script>
+
     <script>
       window._default_sf_server = "<%= ENV['SF_DEFAULT_SERVER'] %>";
       window._extensions_manager_location = "<%= ENV['EXTENSIONS_MANAGER_LOCATION'] %>";
