@@ -16,12 +16,23 @@
       <sourceFolder url="file://$MODULE_DIR$/public/extensions/extensions-manager/tests/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/public/extensions/extensions-manager/tests/integration" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/public/extensions/extensions-manager/tests/acceptance" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/public/template-manager/app" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/public/template-manager/addon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/public/template-manager/public" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/public/template-manager/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/public/template-manager/tests/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/public/template-manager/tests/integration" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/public/template-manager/tests/acceptance" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/public/extensions/batch-manager/dist" />
       <excludeFolder url="file://$MODULE_DIR$/public/extensions/batch-manager/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/public/extensions/extensions-manager/dist" />
       <excludeFolder url="file://$MODULE_DIR$/public/extensions/extensions-manager/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/public/template-manager/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/public/template-manager/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="node_modules extensions-manager" level="project" />
+    <orderEntry type="library" name="node_modules template-manager" level="project" />
   </component>
 </module>

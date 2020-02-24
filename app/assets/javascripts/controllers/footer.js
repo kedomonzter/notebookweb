@@ -328,6 +328,7 @@ class FooterCtrl {
   }
 
   onRoomDismiss(room) {
+    console.log('room', room);
     room.showRoom = false;
   }
 

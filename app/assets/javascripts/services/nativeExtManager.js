@@ -64,7 +64,7 @@ export class NativeExtManager {
       }
 
       let packageInfo = {
-        name: "Extensions",
+        name: "Templates",
         identifier: this.extManagerId
       }
 
@@ -174,6 +174,8 @@ export class NativeExtManager {
 
       this.modelManager.setItemDirty(component, true);
       this.syncManager.sync();
+
+      console.log('components', component);
 
       this.systemExtensions.push(component.uuid);
 
