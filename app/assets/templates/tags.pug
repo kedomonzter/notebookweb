@@ -25,7 +25,8 @@
               title='Create a new tag'
             )
               .sk-label
-                i.icon.ion-md-add.add-button
+                ion-icon(name='add-outline').icon.ion-md-add.add-button
+
         .tag(
           ng-class="{'selected' : self.state.selectedTag == tag}", 
           ng-click='self.selectTag(tag)', 
