@@ -42,13 +42,14 @@
       window._extensions_manager_location = "<%= ENV['EXTENSIONS_MANAGER_LOCATION'] %>";
       window._batch_manager_location = "<%= ENV['BATCH_MANAGER_LOCATION'] %>";
     </script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.0/collection/components/icon/icon.min.css"></link>
     <% if Rails.env.development? %>
       <%= javascript_include_tag "javascripts/app.js", debug: true %>
     <% else %>
       <%= javascript_include_tag "javascripts/app.js", debug: false %>
     <% end %>
     <%= stylesheet_link_tag "stylesheets/app.css", media: "all", debug: false %>
+
 
   </head>
 
