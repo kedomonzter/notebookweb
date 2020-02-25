@@ -24,7 +24,6 @@
     <meta name="twitter:description" content="El notebook is a basic notes app that delivers only the essentials in note taking. Because of its simplicity and resistance to growth, users can count on durability and convenience."/>
     <meta name="twitter:site" content="@elnotebook"/>
     <meta name="twitter:card" content="summary"/>
-
     <meta name="og:title" content="El notebook, a private and secure notes app."/>
     <meta name="og:description" content="El notebook is a basic notes app that delivers only the essentials in note taking. Because of its simplicity and resistance to growth, users can count on durability and convenience."/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,8 +41,9 @@
       window._extensions_manager_location = "<%= ENV['EXTENSIONS_MANAGER_LOCATION'] %>";
       window._batch_manager_location = "<%= ENV['BATCH_MANAGER_LOCATION'] %>";
     </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.0/collection/components/icon/icon.min.css"></link>
-    <% if Rails.env.development? %>
+
+
+     <% if Rails.env.development? %>
       <%= javascript_include_tag "javascripts/app.js", debug: true %>
     <% else %>
       <%= javascript_include_tag "javascripts/app.js", debug: false %>
