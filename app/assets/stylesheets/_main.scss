@@ -223,3 +223,12 @@ $footer-height: 32px;
 .section-title-bar-header svg {
   width: 17px;
 }
+
+.logo-header {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  svg {
+    width: 13px !important;
+  }
+}

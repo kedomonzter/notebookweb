@@ -1901,6 +1901,12 @@ p {
 .section-title-bar-header svg {
   width: 17px; }
 
+.logo-header {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+  .logo-header svg {
+    width: 13px !important; }
+
 .selectable {
   user-select: text !important;
   cursor: text; }
