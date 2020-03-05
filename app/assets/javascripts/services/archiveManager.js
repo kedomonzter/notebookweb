@@ -120,7 +120,7 @@ export class ArchiveManager {
               nextFile();
             } else {
               zipWriter.close((blob) => {
-                this.__downloadData(blob, `Standard Notes Backup - ${this.__formattedDate()}.zip`);
+                this.__downloadData(blob, `El Notebook Backup - ${this.__formattedDate()}.zip`);
                 zipWriter = null;
               });
             }

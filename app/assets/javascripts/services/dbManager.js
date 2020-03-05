@@ -21,7 +21,7 @@ export class DBManager {
       return;
     }
 
-    const request = window.indexedDB.open("standardnotes", 1);
+    const request = window.indexedDB.open("elnotebook", 1);
 
     return new Promise((resolve, reject) => {
       request.onerror = (event) => {
