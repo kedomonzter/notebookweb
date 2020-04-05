@@ -157,7 +157,7 @@ export class DBManager {
   }
 
   async clearAllModels() {
-    const deleteRequest = window.indexedDB.deleteDatabase("standardnotes");
+    const deleteRequest = window.indexedDB.deleteDatabase("elnotebook");
 
     return new Promise((resolve, reject) => {
       deleteRequest.onerror = function(event) {
@@ -171,7 +171,7 @@ export class DBManager {
 
       deleteRequest.onblocked = function(event) {
         console.error("Delete request blocked");
-        this.alertManager.alert({text: "Your browser is blocking Standard Notes from deleting the local database. Make sure there are no other open windows of this app and try again. If the issue persists, please manually delete app data to sign out."})
+        this.alertManager.alert({text: "Your browser is blocking Elnotebook from deleting the local database. Make sure there are no other open windows of this app and try again. If the issue persists, please manually delete app data to sign out."})
         resolve();
       };
     })
